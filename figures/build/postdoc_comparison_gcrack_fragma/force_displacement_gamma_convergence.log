@@ -1,0 +1,1388 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2026.1.15)  2 MAY 2026 17:50
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**force_displacement_gamma_convergence.tex
+(./force_displacement_gamma_convergence.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22>
+(/usr/share/texlive/texmf-dist/tex/latex/standalone/standalone.cls
+Document Class: standalone 2022/10/10 v1.3b Class to compile TeX sub-files stan
+dalone
+(/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count185
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\sa@internal=\count186
+\c@sapage=\count187
+
+(/usr/share/texlive/texmf-dist/tex/latex/standalone/standalone.cfg
+File: standalone.cfg 2022/10/10 v1.3b Default configuration file for 'standalon
+e' class
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\c@figure=\count194
+\c@table=\count195
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+\sa@box=\box51
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks18
+\pgfutil@tempdima=\dimen143
+\pgfutil@tempdimb=\dimen144
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box52
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered
+.code.tex
+\pgfkeys@tmptoks=\toks21
+))
+\pgf@x=\dimen145
+\pgf@y=\dimen146
+\pgf@xa=\dimen147
+\pgf@ya=\dimen148
+\pgf@xb=\dimen149
+\pgf@yb=\dimen150
+\pgf@xc=\dimen151
+\pgf@yc=\dimen152
+\pgf@xd=\dimen153
+\pgf@yd=\dimen154
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count196
+\c@pgf@countb=\count197
+\c@pgf@countc=\count198
+\c@pgf@countd=\count199
+\t@pgf@toka=\toks22
+\t@pgf@tokb=\toks23
+\t@pgf@tokc=\toks24
+\pgf@sys@id@count=\count266
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count267
+\pgfsyssoftpath@bigbuffer@items=\count268
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen155
+\pgfmath@count=\count269
+\pgfmath@box=\box53
+\pgfmath@toks=\toks25
+\pgfmath@stack@operand=\toks26
+\pgfmath@stack@operation=\toks27
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count270
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen156
+\pgf@picmaxx=\dimen157
+\pgf@picminy=\dimen158
+\pgf@picmaxy=\dimen159
+\pgf@pathminx=\dimen160
+\pgf@pathmaxx=\dimen161
+\pgf@pathminy=\dimen162
+\pgf@pathmaxy=\dimen163
+\pgf@xx=\dimen164
+\pgf@xy=\dimen165
+\pgf@yx=\dimen166
+\pgf@yy=\dimen167
+\pgf@zx=\dimen168
+\pgf@zy=\dimen169
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen170
+\pgf@path@lasty=\dimen171
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen172
+\pgf@shorten@start@additional=\dimen173
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box54
+\pgf@hbox=\box55
+\pgf@layerbox@main=\box56
+\pgf@picture@serial@count=\count271
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen174
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen175
+\pgf@pt@y=\dimen176
+\pgf@pt@temp=\dimen177
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen178
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen179
+\pgf@sys@shading@range@num=\count272
+\pgf@shadingcount=\count273
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box57
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box58
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen180
+\pgf@nodesepend=\dimen181
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen182
+\pgffor@skip=\dimen183
+\pgffor@stack=\toks28
+\pgffor@toks=\toks29
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count274
+\pgfplotmarksize=\dimen184
+)
+\tikz@lastx=\dimen185
+\tikz@lasty=\dimen186
+\tikz@lastxsaved=\dimen187
+\tikz@lastysaved=\dimen188
+\tikz@lastmovetox=\dimen189
+\tikz@lastmovetoy=\dimen190
+\tikzleveldistance=\dimen191
+\tikzsiblingdistance=\dimen192
+\tikz@figbox=\box59
+\tikz@figbox@bg=\box60
+\tikz@tempbox=\box61
+\tikz@tempbox@bg=\box62
+\tikztreelevel=\count275
+\tikznumberofchildren=\count276
+\tikznumberofcurrentchild=\count277
+\tikz@fig@count=\count278
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count279
+\pgfmatrixcurrentcolumn=\count280
+\pgf@matrix@numberofcolumns=\count281
+)
+\tikz@expandcount=\count282
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks30
+\t@pgfplots@tokb=\toks31
+\t@pgfplots@tokc=\toks32
+\pgfplots@tmpa=\dimen193
+\c@pgfplots@coordindex=\count283
+\c@pgfplots@scanlineindex=\count284
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
+.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_loader.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
+)
+Package pgfplots: loading complementary utilities for your pgf version...
+\t@pgf@toka=\toks33
+\t@pgf@tokb=\toks34
+\t@pgf@tokc=\toks35
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgfutil-common-lists.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructure.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructureext.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
+.code.tex
+\c@pgfplotsarray@tmp=\count285
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
+x.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
+d.code.tex
+\c@pgfplotstable@counta=\count286
+\t@pgfplotstable@a=\toks36
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.te
+x
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.co
+de.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
+fshading.code.tex
+\c@pgfplotslibrarysurf@no=\count287
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
+shading.pgfsys-pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.
+tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.t
+ex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.cod
+e.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.
+tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex
+\pgfdecoratedcompleteddistance=\dimen194
+\pgfdecoratedremainingdistance=\dimen195
+\pgfdecoratedinputsegmentcompleteddistance=\dimen196
+\pgfdecoratedinputsegmentremainingdistance=\dimen197
+\pgf@decorate@distancetomove=\dimen198
+\pgf@decorate@repeatstate=\count288
+\pgfdecorationsegmentamplitude=\dimen199
+\pgfdecorationsegmentlength=\dimen256
+)
+\tikz@lib@dec@box=\box63
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathmorphing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathmorphing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.co
+ntourlua.code.tex)
+\pgfplots@numplots=\count289
+\pgfplots@xmin@reg=\dimen257
+\pgfplots@xmax@reg=\dimen258
+\pgfplots@ymin@reg=\dimen259
+\pgfplots@ymax@reg=\dimen260
+\pgfplots@zmin@reg=\dimen261
+\pgfplots@zmax@reg=\dimen262
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
+de.tex
+File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks37
+\ex@=\dimen263
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen264
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count290
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count291
+\leftroot@=\count292
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count293
+\DOTSCASE@=\count294
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box64
+\strutbox@=\box65
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen265
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count295
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count296
+\dotsspace@=\muskip16
+\c@parentequation=\count297
+\dspbrk@lvl=\count298
+\tag@help=\toks38
+\row@=\count299
+\column@=\count300
+\maxfields@=\count301
+\andhelp@=\toks39
+\eqnshift@=\dimen266
+\alignsep@=\dimen267
+\tagshift@=\dimen268
+\tagwidth@=\dimen269
+\totwidth@=\dimen270
+\lineht@=\dimen271
+\@envbody=\toks40
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks41
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
+0.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count302
+\l__pdf_internal_box=\box66
+)
+(./force_displacement_gamma_convergence.aux)
+\openout1 = `force_displacement_gamma_convergence.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count303
+\scratchdimen=\dimen272
+\scratchbox=\box67
+\nofMPsegments=\count304
+\nofMParguments=\count305
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count306
+\MPscratchDim=\dimen273
+\MPnumerator=\count307
+\makeMPintoPDFobject=\count308
+\everyMPtoPDFconversion=\toks43
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package pgfplots notification 'compat/show suggested version=true': document ha
+s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
+
+PGFPlots: reading {lefm.csv}
+NOTE: coordinate (1.121709920996529e-05,33.593389544431574) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.3928137258697094e-05,40.23449072731776) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.775784549502971e-05,48.9499542407165) has been dropped beca
+use of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.847878024544389e-05,47.6702265205954) has been dropped beca
+use of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.0636357453338834e-05,22.02459560153159) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.0844171879923725e-05,21.423295633458874) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.1048702092468597e-05,20.996171020496533) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.1259864446866656e-05,20.455971930755982) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.148305704210563e-05,19.85292288386723) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.171082627403769e-05,19.256432980927404) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.193920920856248e-05,18.88752817658606) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.2178134635024067e-05,18.420441920525462) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.2421471690927895e-05,17.75386046283957) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.267995926051818e-05,17.18011457866717) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.2927101930012962e-05,16.84606771329409) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.3200887674864022e-05,16.363659213458465) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.3472775056407595e-05,15.87640276209209) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.3756637755970597e-05,15.389913811293312) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.4054106008084842e-05,14.94919989752411) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.4359036256106697e-05,14.43378928656402) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.4660056099106573e-05,14.010764243312417) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.4981786554465575e-05,13.541754060914526) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.53120782450738e-05,13.091673082942771) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.5659396579495046e-05,12.646039446797488) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.6021510765631118e-05,12.198632598577703) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.63848025759747e-05,11.765051519689823) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.676644304896359e-05,11.32743257704893) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.715478502030151e-05,10.922320632163444) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.7575401405060083e-05,10.504330841659874) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.8001781294682127e-05,10.13035933919115) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.844037410325283e-05,9.698663813030615) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.889310897597394e-05,9.30924785871928) has been dropped beca
+use of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.9379940401319988e-05,8.936497326777124) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.9877473032499014e-05,8.55294212330533) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.0402451174341493e-05,8.167401684980419) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.095343319271056e-05,7.802677315945217) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.153263632992864e-05,7.433481876484156) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.2122337891455214e-05,7.079655361292296) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.273980993557591e-05,6.727129371636756) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.34075677507196e-05,6.4088043974183195) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.410185121940508e-05,6.063467613458917) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.4834581582736355e-05,5.727093839905095) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.561272188430821e-05,5.413992956746454) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.641315078215955e-05,5.094009330082075) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.7296373154629914e-05,4.786594289775039) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.820338989655918e-05,4.48496820894611) has been dropped beca
+use of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.920111502150402e-05,4.198374876683244) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (4.024894332522528e-05,3.9064363069466412) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (4.135051898596681e-05,3.6191895965339547) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (4.25791041426873e-05,3.3474593612107895) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (4.388716000778223e-05,3.098515539337439) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (4.530449531913613e-05,2.826935627804909) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (4.68403266730058e-05,2.5809663142126475) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (4.8540419332089695e-05,2.342711120227887) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (5.042613797755961e-05,2.110688514737705) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (5.2507593609565234e-05,1.9086495213770627) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (5.474558272291959e-05,1.6707817894980896) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (5.738070345218764e-05,1.465428669000406) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (6.037289640080901e-05,1.2638860918163721) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (6.384289542514477e-05,1.0805775514791702) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (6.786840714698886e-05,0.9100677295808607) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (7.284174937192216e-05,0.7377203413994757) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (7.893421147712089e-05,0.5843765701910842) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (8.676523308852288e-05,0.4454076593029215) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (9.736762465974693e-05,0.3162581449985975) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.00011284360935720264,0.20473090422750498) has been dropped 
+because of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.00023255981143151716,0.18626241241802421) has been dropped 
+because of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.0011393015657100583,0.23035705063433043) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+PGFPlots: reading {lefm.csv}
+NOTE: coordinate (0.0,0.0) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1.060724725653582e-05,105.7654231938258) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0635575453930232e-05,105.30194443038422) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0660674755977141e-05,104.27192464139237) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0680611704729217e-05,104.8931139106552) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0699448613274557e-05,103.69799719870701) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0729816838963948e-05,103.76520669559257) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0743082179377156e-05,103.3426565711832) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.07678741479207e-05,102.18443682696193) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0794264558804895e-05,101.58965699342683) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0818997204386929e-05,100.94165265829642) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0844743515780305e-05,101.26498060931796) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.087274739013795e-05,100.70079659627993) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.089138610104951e-05,101.25450962416572) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0921958717725365e-05,100.058553018913) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0942101823940784e-05,98.00118475656016) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0968422277960436e-05,96.53939689942804) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0997406064359964e-05,96.8451754214321) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.102556767413916e-05,96.82712726985206) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1048993106219781e-05,96.47187343111746) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1082334942882449e-05,96.65658158206573) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1110634273467636e-05,95.97433320929429) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1136091655338155e-05,95.38851197259906) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1164431876215617e-05,94.93100002531675) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1189816839909242e-05,95.58883740969661) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1214747408930703e-05,94.52781409045447) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.124331045014702e-05,93.83003573051631) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1270865832577717e-05,93.63803315605398) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1295586715317556e-05,93.6988437166684) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1325228008254502e-05,92.07214169646899) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.135286694888436e-05,91.69889799396861) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1374746415028582e-05,91.1572244864152) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1401107332512078e-05,89.8917135894637) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1430346739468554e-05,89.74936796518274) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1457184336706947e-05,89.3118664607603) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1482585119612478e-05,89.42320893302002) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.151008326124639e-05,89.18316701063718) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1535984036017776e-05,88.67010083422248) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1567210743731827e-05,88.5962118198152) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.159290714913737e-05,88.12479693164238) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1622946962887143e-05,87.25767972951421) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1652075647650261e-05,86.77435774437184) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1671911603885453e-05,85.32868128861803) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1704491073374492e-05,83.83852833301061) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1729086706376519e-05,83.41679398775342) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1761491636835443e-05,84.91731004690962) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1788077764899964e-05,84.43663870693126) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1814534311182574e-05,83.9194255145881) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1842998226730906e-05,83.69359477524026) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1871629038448666e-05,82.25973616970546) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.190303151722438e-05,81.9546150522119) has been dropped beca
+use of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1928707163647691e-05,80.25291502690078) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.195330411593738e-05,80.07578455970675) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1982315649106116e-05,78.89302866616602) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2009779876691351e-05,79.12917188346246) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2038532993769468e-05,79.24532772542806) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2069302108693711e-05,78.41275757012147) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.209426667627386e-05,78.17431649182798) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2118619569793664e-05,77.40298294236807) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2146863087332859e-05,77.55696253709185) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.217377710053315e-05,77.51475276618412) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2200291254668448e-05,76.97901697701967) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2233416901543223e-05,76.85270032034927) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2257035181709093e-05,76.13088583460942) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2283143019893594e-05,75.71994420464985) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2312801328591197e-05,75.74759608802019) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2334621621016169e-05,74.46052070279727) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2364141921217863e-05,74.6600355066196) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2389854185948857e-05,73.77810992411104) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.241365806927755e-05,72.43123591043103) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.244195936964498e-05,71.66423505085366) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.246572099584554e-05,72.83393340288805) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2495462144269176e-05,71.0600930001646) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2512014265121307e-05,70.27219761181667) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2541395665017101e-05,69.97888771015272) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2568076706333323e-05,69.45196289841473) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2593789604865148e-05,69.07186782579059) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2611906914567477e-05,70.52854430181159) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2638167712812886e-05,67.65197376672056) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2661863315029177e-05,69.04152908545474) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2677219622719237e-05,68.012373618688) has been dropped beca
+use of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2704732734049931e-05,67.41452266572087) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2729833646233831e-05,65.61121494409907) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2745619036836481e-05,65.27211908721233) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.277016444869009e-05,66.28539544764246) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.278648027044767e-05,65.7259427620213) has been dropped beca
+use of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2802800150306424e-05,63.98363919786986) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2824566332376204e-05,63.9718444159796) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2844886162076808e-05,62.50044454406095) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2852255736911597e-05,62.52510188631591) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2871156193001622e-05,61.61562446047638) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2887778823635189e-05,60.83582747492198) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2895825176783858e-05,61.220509699704195) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2907872069294065e-05,60.44445005939003) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2931895220986661e-05,61.21621374353735) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2929407863922645e-05,59.01958780513294) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2936995795094996e-05,59.03716963725197) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2945178071442073e-05,59.02088544068858) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2941636330791684e-05,57.23604498034628) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.295045936483096e-05,56.515483411359526) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2949937505162258e-05,56.98403853853336) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.293492517613614e-05,56.27001281458963) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.293489707724766e-05,56.52647980763136) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2929911798211994e-05,54.99785569872571) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2907672898976252e-05,52.86028949100426) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2882968100656824e-05,53.29611115248124) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.286792452982984e-05,53.16297364000039) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2824872571718527e-05,51.99338472047085) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.280244425272863e-05,50.86999314099022) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2767307537452584e-05,49.68930770122842) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2720852557618592e-05,49.82761390137817) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2649579545720935e-05,49.32729300125013) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2591550410336258e-05,48.19869305093885) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.251915032068471e-05,47.25903244495891) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2442603115259041e-05,46.24612530099302) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2330054439345364e-05,45.20183644893629) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.220986504887955e-05,43.54984571396873) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2085195212634422e-05,42.19426711813353) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1909585663007736e-05,40.858317824451674) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1728487863642066e-05,40.06337508802879) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1506381819157471e-05,38.683161074009526) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.124031703568024e-05,36.2871206680328) has been dropped beca
+use of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0933906967206885e-05,35.18597166962642) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0543571240508682e-05,32.991324925649934) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0407434936042841e-05,31.838263980289813) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.121709920996529e-05,33.593389544431574) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.3928137258697094e-05,40.23449072731776) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.775784549502971e-05,48.9499542407165) has been dropped beca
+use of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.847878024544389e-05,47.6702265205954) has been dropped beca
+use of a coordinate filter. (see also unbounded coords=jump). 
+PGFPlots: reading {lefm.csv}
+NOTE: coordinate (0.0,0.0) has been dropped because of a coordinate filter. (se
+e also unbounded coords=jump). 
+NOTE: coordinate (1.060724725653582e-05,105.7654231938258) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0635575453930232e-05,105.30194443038422) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0660674755977141e-05,104.27192464139237) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0680611704729217e-05,104.8931139106552) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0699448613274557e-05,103.69799719870701) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0729816838963948e-05,103.76520669559257) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0743082179377156e-05,103.3426565711832) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.07678741479207e-05,102.18443682696193) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0794264558804895e-05,101.58965699342683) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0818997204386929e-05,100.94165265829642) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0844743515780305e-05,101.26498060931796) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.087274739013795e-05,100.70079659627993) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.089138610104951e-05,101.25450962416572) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0921958717725365e-05,100.058553018913) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0942101823940784e-05,98.00118475656016) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0968422277960436e-05,96.53939689942804) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0997406064359964e-05,96.8451754214321) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.102556767413916e-05,96.82712726985206) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1048993106219781e-05,96.47187343111746) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1082334942882449e-05,96.65658158206573) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1110634273467636e-05,95.97433320929429) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1136091655338155e-05,95.38851197259906) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1164431876215617e-05,94.93100002531675) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1189816839909242e-05,95.58883740969661) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1214747408930703e-05,94.52781409045447) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.124331045014702e-05,93.83003573051631) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1270865832577717e-05,93.63803315605398) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1295586715317556e-05,93.6988437166684) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1325228008254502e-05,92.07214169646899) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.135286694888436e-05,91.69889799396861) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1374746415028582e-05,91.1572244864152) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1401107332512078e-05,89.8917135894637) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1430346739468554e-05,89.74936796518274) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1457184336706947e-05,89.3118664607603) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1482585119612478e-05,89.42320893302002) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.151008326124639e-05,89.18316701063718) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1535984036017776e-05,88.67010083422248) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1567210743731827e-05,88.5962118198152) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.159290714913737e-05,88.12479693164238) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1622946962887143e-05,87.25767972951421) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1652075647650261e-05,86.77435774437184) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1671911603885453e-05,85.32868128861803) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1704491073374492e-05,83.83852833301061) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1729086706376519e-05,83.41679398775342) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1761491636835443e-05,84.91731004690962) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1788077764899964e-05,84.43663870693126) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1814534311182574e-05,83.9194255145881) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1842998226730906e-05,83.69359477524026) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1871629038448666e-05,82.25973616970546) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.190303151722438e-05,81.9546150522119) has been dropped beca
+use of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1928707163647691e-05,80.25291502690078) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.195330411593738e-05,80.07578455970675) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1982315649106116e-05,78.89302866616602) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2009779876691351e-05,79.12917188346246) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2038532993769468e-05,79.24532772542806) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2069302108693711e-05,78.41275757012147) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.209426667627386e-05,78.17431649182798) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2118619569793664e-05,77.40298294236807) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2146863087332859e-05,77.55696253709185) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.217377710053315e-05,77.51475276618412) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2200291254668448e-05,76.97901697701967) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2233416901543223e-05,76.85270032034927) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2257035181709093e-05,76.13088583460942) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2283143019893594e-05,75.71994420464985) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2312801328591197e-05,75.74759608802019) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2334621621016169e-05,74.46052070279727) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2364141921217863e-05,74.6600355066196) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2389854185948857e-05,73.77810992411104) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.241365806927755e-05,72.43123591043103) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.244195936964498e-05,71.66423505085366) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.246572099584554e-05,72.83393340288805) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2495462144269176e-05,71.0600930001646) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2512014265121307e-05,70.27219761181667) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2541395665017101e-05,69.97888771015272) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2568076706333323e-05,69.45196289841473) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2593789604865148e-05,69.07186782579059) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2611906914567477e-05,70.52854430181159) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2638167712812886e-05,67.65197376672056) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2661863315029177e-05,69.04152908545474) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2677219622719237e-05,68.012373618688) has been dropped beca
+use of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2704732734049931e-05,67.41452266572087) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2729833646233831e-05,65.61121494409907) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2745619036836481e-05,65.27211908721233) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.277016444869009e-05,66.28539544764246) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.278648027044767e-05,65.7259427620213) has been dropped beca
+use of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2802800150306424e-05,63.98363919786986) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2824566332376204e-05,63.9718444159796) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2844886162076808e-05,62.50044454406095) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2852255736911597e-05,62.52510188631591) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2871156193001622e-05,61.61562446047638) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2887778823635189e-05,60.83582747492198) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2895825176783858e-05,61.220509699704195) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2907872069294065e-05,60.44445005939003) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2931895220986661e-05,61.21621374353735) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2929407863922645e-05,59.01958780513294) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2936995795094996e-05,59.03716963725197) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2945178071442073e-05,59.02088544068858) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2941636330791684e-05,57.23604498034628) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.295045936483096e-05,56.515483411359526) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2949937505162258e-05,56.98403853853336) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.293492517613614e-05,56.27001281458963) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.293489707724766e-05,56.52647980763136) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2929911798211994e-05,54.99785569872571) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2907672898976252e-05,52.86028949100426) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2882968100656824e-05,53.29611115248124) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.286792452982984e-05,53.16297364000039) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2824872571718527e-05,51.99338472047085) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.280244425272863e-05,50.86999314099022) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2767307537452584e-05,49.68930770122842) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2720852557618592e-05,49.82761390137817) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2649579545720935e-05,49.32729300125013) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2591550410336258e-05,48.19869305093885) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.251915032068471e-05,47.25903244495891) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2442603115259041e-05,46.24612530099302) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2330054439345364e-05,45.20183644893629) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.220986504887955e-05,43.54984571396873) has been dropped bec
+ause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.2085195212634422e-05,42.19426711813353) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1909585663007736e-05,40.858317824451674) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1728487863642066e-05,40.06337508802879) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.1506381819157471e-05,38.683161074009526) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.124031703568024e-05,36.2871206680328) has been dropped beca
+use of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0933906967206885e-05,35.18597166962642) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0543571240508682e-05,32.991324925649934) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.0407434936042841e-05,31.838263980289813) has been dropped b
+ecause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.121709920996529e-05,33.593389544431574) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.3928137258697094e-05,40.23449072731776) has been dropped be
+cause of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.775784549502971e-05,48.9499542407165) has been dropped beca
+use of a coordinate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.847878024544389e-05,47.6702265205954) has been dropped beca
+use of a coordinate filter. (see also unbounded coords=jump). 
+PGFPlots: reading {phase-field_L_over_ell_256.csv}
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 54.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
+ 54.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
+ 54.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
+ 54.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
+<ct_with_crack_specimen_punctual_load.pdf, id=4, 115.01068pt x 116.06763pt>
+File: ct_with_crack_specimen_punctual_load.pdf Graphic file (type pdf)
+<use ct_with_crack_specimen_punctual_load.pdf>
+Package pdftex.def Info: ct_with_crack_specimen_punctual_load.pdf  used on inpu
+t line 55.
+(pdftex.def)             Requested size: 93.89418pt x 94.75809pt.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
+st/fonts/enc/dvips/base/8r.enc} <./ct_with_crack_specimen_punctual_load.pdf>]
+(./force_displacement_gamma_convergence.aux) ) 
+Here is how much of TeX's memory you used:
+ 24188 strings out of 476041
+ 633832 string characters out of 5793174
+ 1870388 words of memory out of 6000000
+ 44226 multiletter control sequences out of 15000+600000
+ 526212 words of font info for 61 fonts, out of 8000000 for 9000
+ 1137 hyphenation exceptions out of 8191
+ 99i,18n,103p,757b,2163s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a
+.pfb>
+Output written on force_displacement_gamma_convergence.pdf (1 page, 49773 bytes
+).
+PDF statistics:
+ 43 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+

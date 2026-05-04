@@ -1,0 +1,122 @@
+/*-- scss:defaults --*/
+
+/* See https://quarto.org/docs/presentations/revealjs/themes.html#customizing-themes */
+/* https://github.com/quarto-dev/quarto-cli/blob/main/src/resources/formats/revealjs/quarto.scss */
+
+// Colors
+$enstablue: #3746ff;
+$nightblue: #190f3c;
+$coral: #ff808b;
+$white: #ffffff;
+$black: #000000;
+
+// Text colors
+$body-bg: $white;
+$body-color: $nightblue;
+$link-color: $enstablue;
+$text-muted: lighten($black, 50%);
+
+$alert-color: $coral;
+$example-color: $enstablue;
+
+// Font
+$presentation-font-smaller: 0.6 !default;
+$presentation-font-verysmaller: 0.85em !default;
+$presentation-font-large: 1.15em !default;
+$font-family-sans-serif: "Century Gothic";
+
+/*-- scss:rules --*/
+
+#title-slide {
+  text-align: left;
+
+  .title {
+    color: $body-color;
+    font-size: $presentation-h1-font-size;
+    font-style: bold;
+  }
+
+  .subtitle {
+    color: $text-muted;
+    font-style: italic;
+    font-size: $presentation-h4-font-size;
+    margin-top: -0.25em;
+    font-weight: lighter;
+  }
+
+  .institute,
+  .quarto-title-affiliation{
+    font-style: italic;
+    color: $text-muted;
+  }
+
+  // .quarto-title-author-email {
+  //   color: $text-muted;
+  // }
+
+  .author,
+  .quarto-title-author-name {
+    color: $body-color;
+  }
+
+  .quarto-title-authors {
+    display: flex;
+    justify-content: left;
+
+    .quarto-title-author {
+      padding-left: 0em;
+      padding-right: 0em;
+      width: 100%;
+    }
+  }
+
+  .date {
+    color: $body-color;
+    margin-top: 0.5em;
+  }
+}
+
+.reveal .title-slide {
+  background-color: $coral;
+}
+
+.reveal .title-slide h1 {
+  text-align: left;
+  color: $white;
+  link-color: $white;
+}
+
+.reveal .title-slide p {
+  text-align: left;
+  color: $white;
+}
+
+.reveal .title-slide a {
+  color: $white;
+}
+
+.reveal h4 {
+  font-variant-caps: small-caps;
+  font-weight: bold;
+  color: $enstablue;
+}
+
+.alert {
+  color: $alert-color;
+}
+
+.example {
+  color: $example-color;
+}
+
+.muted {
+  color: $text-muted;
+}
+
+.verysmaller {
+  font-size: $presentation-font-verysmaller;
+}
+
+.large {
+  font-size: $presentation-font-large;
+}
