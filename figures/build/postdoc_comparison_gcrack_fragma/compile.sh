@@ -1,0 +1,3 @@
+latexmk -pdf force_displacement_gamma_convergence.tex
+
+inkscape force_displacement_gamma_convergence.pdf -o postdoc_comparison_gcrack_fragma.svg

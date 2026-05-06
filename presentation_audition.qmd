@@ -1,6 +1,6 @@
 ---
-title: TODO Il faut trouver un bon titre
-subtitle: "Poste MCF n°261191 - Section 60 - INSA Lyon (FIMI/GM) - LaMCoS (Multimap) <br> Conception mécanique et procédés - Comportements multi-échelles et multi-physiques des matériaux"
+title: Audition pour le poste MCF n°261191
+subtitle: "Section 60 - INSA Lyon (FIMI/GM) - LaMCoS (Multimap) <br> Conception mécanique et procédés - Comportements multi-échelles et multi-physiques des matériaux"
 format:
   quarto-ensta-revealjs: default
 author:
@@ -8,10 +8,11 @@ author:
     orcid: 0000-0002-6305-7309
     email: flavien.loiseau@ensta.fr
     website: floiseau.github.io
-date: last-modified
+date: 05-19-2026
 footer: Flavien Loiseau
 # embed-resources: True
 # self-contained-math: True
+bibliography: biblio.bib
 ---
 
 ## Parcours
@@ -102,20 +103,66 @@ Encadré par Véronique Lazarus
 ::: {.column width="25%"}
 **2020--2023**
 
-![](figures/logo_lmps.svg){width="100%" fig-align="left"}
+![](figures/logo_lmps.svg){width="20%" .absolute top=18%}
 :::
 
 ::: {.column width="75%"}
-**Formulation de l'endommagement anisotrope des matériaux et stuctures quasi-fragiles basée sur la simulation discrète de la fissuration**
-
+**Formulation de l'endommagement anisotrope des matériaux et stuctures quasi-fragiles basée sur la simulation discrète de la fissuration** <br>
 R. Desmorat, C. Oliver-Leblond <br>
 [*2 articles, 2 conférences internationales, 1 conférence nationale, 2 GdR.*]{.muted}
 :::
 ::::
-![](figures/thesis_process.svg){fig-align="center"}
+
+[{{< fa bullseye >}} Model damage in micro-cracking material $\boldsymbol{\sigma} = \tilde{\mathbf{E}}(\mathbf{D}) : \boldsymbol{\varepsilon}$ from discrete simulations]{.alert .large}
+
+::::{.columns}
+
+:::{.column width=33%}
+#### 1. Discrete simulations
+
+::: {layout-ncol=2}
+
+<br>
+21 loads <br>
+36 $\mu$-structures
+$\to$ 76k steps
+
+
+![](figures/2023_thesis_discrete_simulation_1.jpg){width=4cm}
+
+![](figures/2023_thesis_discrete_simulation_2.jpg){width=4cm}
+
+![](figures/2023_thesis_discrete_simulation_3.jpg){width=4cm}
+
+:::
+
+:::
+
+:::{.column width=33%}
+#### 2. Effective elasticity tensors
+
+![](figures/2023_thesis_elas_evolution.svg){width=100%}
+
+{{< fa magnifying-glass >}} Analysis of symmetry classes
+
+:::
+
+:::{.column width=33%}
+
+#### 3. Modelling
+
+a. Damage definition
+  $$\mathbf{D} = \mathbf{1} - \frac{1}{\kappa_0} \mathrm{tr}_{12} (\mathbf{E})$$
+
+b. Harmonic decomposition
+
+![](figures/2023_thesis_harmonic_decomposition.svg){width=100%}
+
+:::
+::::
 
 :::{.footer}
-Dataset publié en *open access* sur RechercheDataGouv.
+{{< fa book >}} @loiseau_anisotropic_2023 and @vedrine_calibration_2025 &emsp; {{< fa database >}} Dataset: [https://doi.org/10.57745/LYHM4W](https://doi.org/10.57745/LYHM4W)
 :::
 
 :::{.notes}
@@ -127,7 +174,7 @@ Dataset publié en *open access* sur RechercheDataGouv.
 - Cas de l'évolution : traité mais pasz abouti.
 :::
 
-## Postdoctoral research at IMSIA (1/2)
+## Postdoc at IMSIA - Overview
 
 :::: {.columns}
 ::: {.column width="25%"}
@@ -137,115 +184,302 @@ Dataset publié en *open access* sur RechercheDataGouv.
 :::
 
 :::{.column width="75%"}
-**Theoretical and numerical study of crack propagation <br> in heterogenous and/or anisotropic materials**
-
+**Theoretical and numerical study of crack propagation <br> in heterogenous and/or anisotropic materials** <br>
 V. Lazarus <br>
 [*2(+3) articles, ?(+2) international conferences, ?(+?) national conferences.*]{.muted}
 :::
 ::::
 
+
+[**{{< fa wrench >}} Open-source codes for 2D crack propagation**]{.alert .large}
+
 ::::{.columns}
-:::{.column width=60%}
+:::{.column width=40%}
 
-[**{{< fa wrench >}} Open-source codes for crack propagation in 2D {{< fa wrench >}}**]{.alert .r-stack .large}
+<br>
 
-[[{{< fa brands github >}} **floiseau/gcrack**]{.example}](https://github.com/floiseau/gcrack) [(linear elastic fracture mechanics)]{.muted}
+[[{{< fa brands github >}} **floiseau/gcrack**]{.example}](https://github.com/floiseau/gcrack) [(LEFM)]{.muted}
 
 [[{{< fa brands github >}} **floiseau/fragma**]{.example}](https://github.com/floiseau/fragma) [(phase-field)]{.muted}
 
-::::::{.columns}
-:::::{.column width=30%}
 **Main features**
+
+::::::{.columns}
+:::::{.column width=50%}
+- Load control <br> [(path-following)]{.muted}
+- Fracture anisotropy
 :::::
 
-:::::{.column width=70%}
+:::::{.column width=50%}
 
-- Load control [(path-following)]{.muted}
-- Fracture anisotropy
-- Fatigue [(gcrack)]{.muted}
 - Heterogeneities [(fragma)]{.muted}
+- Fatigue [(gcrack)]{.muted}
 
 :::::
 ::::::
 
 :::
 
-:::{.column width=40%}
+:::{.column width=60%}
+
+![Fracture of a 3D-printed polycarbonate specimen. Experiments by @zhai_fdm-based_2025 at IMSIA.](figures/postdoc_gcrack_anisotropic_fracture.svg){width=100%}
+
+:::
+::::
+
+:::{.footer}
+LEFM = Linear Elastic Fracture Mechanics
+:::
+
+## Postdoc  at IMSIA - Numerical aspects
+
+[{{< fa bullseye >}} Develop robust numerical tools for crack propagation in anisotropic materials]{.alert .large}
+
+::::{.columns}
+
+:::{.column width=33%}
+
+#### Load control 
+
+&emsp;&nbsp;Force load + Fracture = Instable
 
 ![](figures/postdoc_comparison_gcrack_fragma.svg){width=100%}
 
+{{< fa book >}} @loiseau_path-following_2026
+
+:::{.muted}
+- Novel path-following method
+- Comparison phase-field vs LEFM
+:::
+:::
+
+:::{.column width=66%}
+
+#### Limiting numerical bias in phase-field simulations of fracture
+
+::::::{.columns}
+:::::{.column width=38%}
+**Initial cracks**
+
+{{< fa book >}} @loiseau_how_2025
+
+:::{.muted}
+- Unbiased initial crack <br> in phase-field fracture
+:::
+
+:::::
+
+:::::{.column width=61%}
+![](figures/postdoc_initial_cracks.svg){width=100%}
+:::::
+::::::
+
+::::::{.columns}
+:::::{.column width=38%}
+**Mesh-induced bias**
+
+[{{< fa user-friends >}} E. Zembra \& H. Henry (PMC)]{.verysmaller .muted}
+
+:::{.muted}
+- Quantify mesh bias in crack path prediction
+:::
+:::::
+
+:::::{.column width=61%}
+![](figures/postdoc_mesh_bias.svg){width=100%}
+:::::
+::::::
+
 :::
 
 ::::
 
-## Postdoctoral research at IMSIA (2/2)
+## Postdoc at IMSIA - Applications
 
-Illustré avec un arbre partant des deux codes (mettre résultats/figures) et allant vers les études réalisés (mettre illustrations des contributions + collaborations ?)
+[{{< fa bullseye >}} Simulate crack propagation for real problem]{.alert .large}
+
+#### External collaborations 
 
 ::::{.columns}
-:::{.column width=33%}
-#### Theoretical/Numerical contributions
 
-- LEFM crack propagation criterion and numerical solution
-- Comparison LEFM vs PF for anisotropic fracture
-- Load control (path-following)
-- Bias in phase-field fracture simulations
-  - initial cracks
-  - mesh-induced bias (E. Zembra, H. Henry, PMC)
+:::{.column width=50%}
+
+::::::{.columns}
+
+:::::{.column width=57%}
+**Fracture in rotating structures** <br>
+[{{< fa user-friends >}} G. Yakir \& P. Reis (EPFL)]{.verysmaller .muted}
+
+:::{.muted .verysmaller}
+- Determination of the crack propagation threshold
+:::
+:::::
+
+:::::{.column width=43%}
+![](figures/postdoc_rotating_structure_setup_annotated.svg){width=100%}
+:::::
+::::::
 
 :::
 
-:::{.column width=33%}
-#### Collaborations 
 
-- Polycarbonate imprimé 3D
-  - Avec X. Zhai (IMSIA)
+:::{.column width=50%}
 
-- PMMA (CCT)
-  - Essais de D. Roucou (IMSIA)
-  - Encadrement d'un stage
+::::::{.columns}
+:::::{.column width=55%}
+**Optimization of dissipation during crack propagation** <br>
+[{{< fa user-friends >}} J. Triclot (LMA)]{.verysmaller .muted}
 
-- Duplex imprimé 3D vieilli
-  - Essais de D. Roucou (IMSIA)
-  - Encadrement d'un stage
+:::::
 
+:::::{.column width=43%}
+:::{.muted .verysmaller}
+- Simulation of crack propagation <br> with load control
 :::
+:::::
+::::::
 
-:::{.column width=33%}
-
-
-- Zones architecturés
-  - J. Triclot (LMA)
-
-- Fracture in rotating structures
-  - Gilad + Pedro (EPFL)
-
-- Recent works
+![](/figures/build/postdoc_optimisation_dissipation/specimen.png){width=75% fig-align=center}
 
 :::
 
 ::::
 
-#### Other works
-
-- Régressions sparses
-- Illustration of the procedure with an example:
-    1. Problem
-    2. Analysis (dimensionless function we want to determine)
-    3. Data collection (numerical)
-    4. Sparse regression results: analytical approximation.
+::::{.columns}
+:::{.column width=50%}
+**Sparse analytical regressions**<br>
+[{{< fa user-friends >}} Discussions for applications at Safran Aircraft Engines]{.verysmaller .muted}
 
 
-## [Responsabilités]{.example} en recherche
+::::::{.columns}
+:::::{.column width=49%}
+TODO
 
-Stage
+:::::
 
+:::::{.column width=49%}
+illustration
+:::::
+::::::
+
+<!--
+1. Problem
+2. Analysis (dimensionless function we want to determine)
+3. Data collection (numerical)
+4. Sparse regression results: analytical approximation.
+-->
+
+:::
+
+:::{.column width=50%}
+
+#### And numerous collaborations at IMSIA
+
+::::::{.columns}
+
+:::::{.column width=30%}
+**Fracture in <br> 3D-printed structures** 
+:::::
+
+:::::{.column width=68%}
+:::{.muted .verysmaller}
+Polycarbonate (X. Zhai) <br>
+Duplex steel (D. Roucou \&  N. Habib) <br>
+Repaired steel structures (L. Kiakouama)
+:::
+:::::
+
+::::::
+
+::::::{.columns}
+
+:::::{.column width=30%}
+**Others** 
+:::::
+
+:::::{.column width=68%}
+:::{.muted .verysmaller}
+Mixed mode fracture in PMMA (D. Roucou) <br>
+Specimen design (K. Paquet)
+:::
+:::::
+
+::::::
+
+
+
+
+:::
+::::
+
+
+
+## Encadrements
+
+::::{.columns}
+
+:::{.column}
+
+#### Effect of crack distribution on the elasticity tensor
+[*2022 - A. Marlot - M1 ENS Paris-Saclay*]{.muted}
+
+![](figures/2022_internship_marlot_shear_vs_bulk_modulus.svg){fig-align=center width=100%}
+
+#### Study of size effect in discrete simulation
+[*2023 - L. Védrine - M2 ENS Paris-Saclay*]{.muted}
+
+![](figures/2023_internship_vedrine_size_effect.svg){fig-align=center width=80%}
+:::
+
+:::{.column}
+
+#### Phase-field simulations of anisotropic fracture
+[*2024 - A. Ecotiere - 2A ENSTA*]{.muted}
+
+TODO <br>
+TODO <br>
+TODO
+
+#### Crack propagation in mixed mode I+II in CCT specimen
+[*2025 - Y. M. V. Epongue Djeugoue - 2A ENSTA*]{.muted}
+[*Experiments by D. Roucou at IMSIA.*]{.muted .verysmaller}
+
+<!--
+![](figures/postdoc_cct_gcrack_propagation.mp4){autoplay=true loop=true width=47% .absolute top="36%" left="52%" .fragment .fade-out fragment-index=1}
+
+![](figures/postdoc_cct_gcrack_propagation_last.jpeg){width=47% .absolute top="34.4%" left="52%" .fragment fragment-index=1}
+
+<br>
+<br>
+<br>
+<br>
+<br>
+![Experiments by D. Roucou at IMSIA.](figures/postdoc_cct_expe_crack_path.png){width=90% fig-align=center}
+-->
+
+![](figures/postdoc_cct_expe_crack_path.png){width=89% fig-align=center}
+
+![](figures/postdoc_cct_gcrack_propagation.mp4){fig-align=center autoplay=true loop=true width=100% .fragment fragment-index=1}
+
+
+<!--
+![](figures/postdoc_cct_gcrack_propagation_last.jpeg){fig-align=center width=100% .fragment fragment-index=1}
+-->
+
+
+:::
+
+::::
+
+
+<!--
 Animation scientifique
 
 Autres
 
 - Création et gestion de code collaboratifs
 - Intérêt pour la science ouverte
+-->
 
 
 ## Projet d'intégration en recherche

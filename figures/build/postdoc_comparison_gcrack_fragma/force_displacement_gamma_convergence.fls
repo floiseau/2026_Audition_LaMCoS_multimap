@@ -1,4 +1,4 @@
-PWD /home/flavien.loiseau/Documents/Candidatures MCF 2026/LaMCoS_MultiMap/presentation_audition/figures/build/postdoc_path-following_fragma
+PWD /home/flavien.loiseau/Documents/Candidatures MCF 2026/LaMCoS_MultiMap/presentation_audition/figures/build/postdoc_comparison_gcrack_fragma
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /home/flavien.loiseau/.texlive2023/texmf-var/web2c/pdftex/pdflatex.fmt
@@ -626,6 +626,9 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT lefm.csv
 INPUT lefm.csv
 INPUT lefm.csv
+INPUT phase-field_no_path-following.csv
+INPUT phase-field_no_path-following.csv
+INPUT phase-field_no_path-following.csv
 INPUT phase-field_L_over_ell_256.csv
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
