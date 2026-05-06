@@ -25,6 +25,14 @@ $presentation-font-verysmaller: 0.85em !default;
 $presentation-font-large: 1.15em !default;
 $font-family-sans-serif: "Century Gothic";
 
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('../../../../../fonts/CenturyGothic.woff2') format('woff2'),
+       url('../../../../../fonts/CenturyGothic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*-- scss:rules --*/
 
 #title-slide {
@@ -77,7 +85,7 @@ $font-family-sans-serif: "Century Gothic";
 }
 
 .reveal .title-slide {
-  background-color: $coral;
+  background-color: $text-muted;
 }
 
 .reveal .title-slide h1 {

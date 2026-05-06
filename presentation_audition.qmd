@@ -10,7 +10,10 @@ author:
     website: floiseau.github.io
 date: 05-19-2026
 footer: Flavien Loiseau
-# embed-resources: True
+resources:
+  - "fonts/CenturyGothic.woff"
+  - "fonts/CenturyGothic.woff2"
+embed-resources: True
 # self-contained-math: True
 bibliography: biblio.bib
 ---
@@ -23,7 +26,7 @@ bibliography: biblio.bib
 :::
 
 ::: {.column width="87%"}
-**BAC Technologique STI2D** 
+**BAC Technologique STI2D**  [(spécialité ITEC)]{.muted}
 :::
 ::::
 
@@ -94,6 +97,164 @@ Encadré par Véronique Lazarus
 - Suivi le M2 FESup
 - Durant ces années, stages portant sur la simulation numérique et la dégradation mécaniques des structures. Je ne reviens pas dessus.
 - Puis thèse et post-doctorat
+:::
+
+# Enseignement
+
+:::{.large}
+1 &emsp; Expériences en enseignement <br>
+2 &emsp; Projet d'intégration <br>
+3 &emsp; Mise en situtation
+:::
+
+## NOTES
+
+Il faut peut-être découper la slide suivante par activités et illustrer les TPs/TD
+
+## Activités d'enseignement
+
+:::: {.columns}
+::: {.column width="13%"}
+Avant 2020
+:::
+
+::: {.column width="87%"}
+[**Divers**]{.smallcaps .example}
+
+:::{.muted}
+Aide aux devoirs (niveau lycée) <br>
+Préparation aux examens et TP à l'IUT de Cachan (GMP)
+:::
+
+:::
+::::
+
+:::: {.columns}
+::: {.column width="13%"}
+2020--2023
+:::
+
+::: {.column width="87%"}
+[**Mission d'enseignement**]{.smallcaps .example}
+&emsp;
+{{< fa school >}} ENS Paris-Saclay
+&emsp;
+{{< fa users >}} Génie Civil (L3, M1)
+&nbsp;&nbsp;&nbsp;&nbsp;
+{{< fa clock >}} 64h $\times$ 3 ans
+
+:::{.muted}
+Méthodes Numériques, Propagation d'ondes, Mécanique des Fluides, Matlab
+<br>
+:::
+
+:::
+::::
+
+:::: {.columns}
+::: {.column width="13%"}
+2024--2026
+:::
+
+::: {.column width="87%"}
+[**Vacations**]{.smallcaps .example}
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+{{< fa school >}} ENSTA
+&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+{{< fa users >}} Mécanique (1A, 2A)
+&ensp;&nbsp;
+{{< fa clock >}} 42h + 51h
+
+:::{.muted}
+MMC solide élastique, Comportements non-linéaires, Fatigue, Rupture, Projet Matlab
+<br>
+:::
+
+:::
+::::
+
+<br>
+
+#### {{< fa square-up-right >}} Évolution des formations
+
+- Sujet de TD de Méthodes Numériques
+<!-- - Automatisation de la répartition pour séance de soutien Matlab -->
+- Supports numériques de TP en Mécanique de la rupture
+  - [Code Python utilisant FEniCSx + Docker (pérénisation)]{.muted}
+
+
+
+:::{.absolute bottom="0%" right="-35%"}
+![](figures/illustration_tp_meca_rupture.png){width=33%}
+:::
+
+
+:::{.notes}
+- Pour la plupart de ces modules, TD et/ou TP + corrections rapport/exam.
+- Participations à des jurys de stages/projets
+:::
+
+
+## Intégration dans les formations
+
+::::{.columns}
+:::{.column width=70%}
+Intégration dans les formations de [**conception mécanique et procédés**]{.example} assurée ma [**formation**]{.example}.
+
+[Moins pratiqué conception mécanique et procédés récemment MAIS longue formation depuis la STI2D]{.alert}
+
+[Investissement dans les formations proposés + suivi des TD/TP des autres membres de l'équipe pédagogique]{.alert}
+:::
+:::{.column width=30%}
+![](figures/logo_insa_lyon.svg){width=100%}
+:::
+::::
+
+#### {{< fa graduation-cap >}} Formation Initiale aux Métiers d'Ingénieur (FIMI)
+
+| Année | Cours                                                 | Intégration             |
+|-------|-------------------------------------------------------|-------------------------|
+| 1ère  | MS100 - Mécanique des milieux continus                | Formation + Recherche   |
+|       | MF10(1/2) - Mécanique des fluides incompressibles 1/2 | Formation + Exp. ENS PS |
+| 2ème  | *MS201 - Comportement non-linéaire des matériaux*     | *Exp. ENSTA*            |
+|       | MS202 - Modélisation des structures élancées          | Formation               |
+
+: {tbl-colwidths="[8, 60, 32]"}
+
+#### {{< fa graduation-cap >}} Formation Ingénieur - Département Génie Mécanique (GM)
+
+**TODO: table with the blablabla**
+
+## Mise en situation pédagogique
+
+Comment concevoir et réaliser une liaison encastrement démontable entre l’écran et le boîtier d’un smartphone ? <br>
+Niveau Licence 2 <br>
+Enseignement de 8 heures
+
+Illustration de solution techniques
+
+## Notes
+
+- Pré-requis (lien avec les modules de la formation) = contenus mobilisés ?
+- Objectifs visés
+- Démarche pédagogique retenue.
+
+## Organisation
+
+organisation proposée
+
+## Supports d'études
+
+
+
+
+
+
+# Recherche
+
+:::{.large}
+1 &emsp; Expériences en recherche <br>
+2 &emsp; Projet d'intégration
 :::
 
 ## Thèse au LMPS
@@ -198,7 +359,7 @@ V. Lazarus <br>
 
 <br>
 
-[[{{< fa brands github >}} **floiseau/gcrack**]{.example}](https://github.com/floiseau/gcrack) [(LEFM)]{.muted}
+[[{{< fa brands github >}} **floiseau/gcrack**]{.example}](https://github.com/floiseau/gcrack) [(LEFM$^*$)]{.muted}
 
 [[{{< fa brands github >}} **floiseau/fragma**]{.example}](https://github.com/floiseau/fragma) [(phase-field)]{.muted}
 
@@ -228,7 +389,7 @@ V. Lazarus <br>
 ::::
 
 :::{.footer}
-LEFM = Linear Elastic Fracture Mechanics
+$^*$ LEFM = Linear Elastic Fracture Mechanics
 :::
 
 ## Postdoc  at IMSIA - Numerical aspects
@@ -524,80 +685,12 @@ Possiblité de collaborations avec des industriels + Intervention dans le projet
 
 *Cette slide correspond peut-être plutôt au besoin.*
 
-## Activités d'enseignement
+## Conclusion
 
-:::: {.columns}
-::: {.column width="13%"}
-Avant 2020
+Faire une slide de fin
+
+## References
+
+::: {#refs}
 :::
-
-::: {.column width="87%"}
-[**Divers**]{.smallcaps .example}
-
-:::{.muted}
-Aide aux devoirs (pour lycéens) <br>
-Interventions l'IUT de Cachan (M2E FESup)
-:::
-
-:::
-::::
-
-:::: {.columns}
-::: {.column width="13%"}
-2020--2023
-:::
-
-::: {.column width="87%"}
-[**Mission d'enseignement**]{.smallcaps .example} &emsp; ENS Paris-Saclay - L3 et M1 en Génie Civil
-
-:::{.muted}
-Méthodes Numériques, Mécanique des Fluides, Propagation d'ondes, Matlab.
-<br>
-:::
-
-:::
-::::
-
-:::: {.columns}
-::: {.column width="13%"}
-2024
-:::
-
-::: {.column width="87%"}
-[**Vacations**]{.smallcaps .example} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ENSTA - 1A et 2A Mécanique
-
-:::{.muted}
-MMC solide élastique, Comportements non-linéaires, Fatigue, Rupture, Projet Matlab.
-<br>
-:::
-
-:::
-::::
-
-<br>
-
-#### Évolution des formations
-
-- Sujet de TD de Méthodes Numériques
-<!-- - Automatisation de la répartition pour séance de soutien Matlab -->
-- Supports TP et Examen de Mécanique de la rupture en FEniCSx
-
-
-
-:::{.absolute bottom="0%" right="-35%"}
-![](figures/illustration_tp_meca_rupture.png){width=33%}
-:::
-
-
-:::{.notes}
-- Pour la plupart de ces modules, TD et/ou TP + corrections rapport/exam.
-- Participations à des jurys de stages/projets
-:::
-
-
-## Adéquation au profil recherché
-
-## Intégration dans les formations
-
-## Mise en situation pédagogique
 
