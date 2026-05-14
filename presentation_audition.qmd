@@ -10,6 +10,7 @@ author:
     website: floiseau.github.io
 date: 05-19-2026
 footer: Flavien Loiseau
+margin: 0.1
 resources:
   - "fonts/CenturyGothic.woff"
   - "fonts/CenturyGothic.woff2"
@@ -201,9 +202,11 @@ MMC solide élastique, Comportements non-linéaires, Fatigue, Rupture, Projet Ma
 :::{.column width=70%}
 Intégration dans les formations de [**conception mécanique et procédés**]{.example} assurée ma [**formation**]{.example}.
 
-[Moins pratiqué conception mécanique et procédés récemment MAIS longue formation depuis la STI2D]{.alert}
+[Moins pratiqué récemment MAIS longue formation depuis la STI2D]{.alert}
 
-[Investissement dans les formations proposés + suivi des TD/TP des autres membres de l'équipe pédagogique]{.alert}
+[Suivi des TD/TP des autres membres de l'équipe pédagogique + formations spécifiques procédés]{.alert}
+
+[Former à la CAO (SolidWorks et CATIA) $\rightarrow$ adaptation à SolidEdge et 3DEXPERIENCE]{.alert}
 :::
 :::{.column width=30%}
 ![](figures/logo_insa_lyon.svg){width=100%}
@@ -212,12 +215,12 @@ Intégration dans les formations de [**conception mécanique et procédés**]{.e
 
 #### {{< fa graduation-cap >}} Formation Initiale aux Métiers d'Ingénieur (FIMI)
 
-| Année | Cours                                                 | Intégration             |
-|-------|-------------------------------------------------------|-------------------------|
-| 1ère  | MS100 - Mécanique des milieux continus                | Formation + Recherche   |
-|       | MF10(1/2) - Mécanique des fluides incompressibles 1/2 | Formation + Exp. ENS PS |
-| 2ème  | *MS201 - Comportement non-linéaire des matériaux*     | *Exp. ENSTA*            |
-|       | MS202 - Modélisation des structures élancées          | Formation               |
+| Année  | Cours                                                 | Intégration             |
+|--------|-------------------------------------------------------|-------------------------|
+| FIMI 1 | Conception mécanique 1/2                              | Formation + Recherche   |
+|        | MF10(1/2) - Mécanique des fluides incompressibles 1/2 | Formation + Exp. ENS PS |
+| 2ème   | *MS201 - Comportement non-linéaire des matériaux*     | *Exp. ENSTA*            |
+|        | MS202 - Modélisation des structures élancées          | Formation               |
 
 : {tbl-colwidths="[8, 60, 32]"}
 
@@ -225,27 +228,189 @@ Intégration dans les formations de [**conception mécanique et procédés**]{.e
 
 **TODO: table with the blablabla**
 
+## Évolution & Innovation pédagogique
+
+<br>
+
+::::{.columns}
+:::{.column}
+
+#### {{< fa toolbox >}}  Maîtrise d'outils numériques variés
+
+[Programmation, calcul scientifique, supports.]{.muted}
+
+#### 📚 Autres intérêt pédagogiques
+
+- Pédagogie inductive <br>
+  &emsp; [*Activités de mise en situation*]{.muted} <br>
+  &emsp; [*Projet*]{.muted}
+- Intégration enjeux sociétaux <br>
+  &emsp; [*Aspects environnementaux*]{.muted} <br>
+  &emsp; [*Intelligence artificielle*]{.muted}
+- Enseignements digitaux <br>
+  &emsp; [*Supports interactifs, vidéos*]{.muted} <br>
+  &emsp; [*Accessibilité (e.g., via Quarto)*]{.muted} <br>
+- À terme, responsabilités pédagogiques
+
+<br>
+
+
+:::
+
+:::{.column}
+
+#### TODO
+
+:::
+::::
+
 ## Mise en situation pédagogique
+::::{.columns .large .alert}
+:::{.column width=20%}
+{{< fa users >}} Licence 2 <br>
+{{< fa clock >}} &nbsp;8 heures
+:::
 
-Comment concevoir et réaliser une liaison encastrement démontable entre l’écran et le boîtier d’un smartphone ? <br>
-Niveau Licence 2 <br>
-Enseignement de 8 heures
+:::{.column width=80%}
+Comment **concevoir et réaliser une liaison encastrement démontable** <br> entre l’écran et le boîtier d’un smartphone ?
+:::
 
-Illustration de solution techniques
+::::
 
-## Notes
 
-- Pré-requis (lien avec les modules de la formation) = contenus mobilisés ?
-- Objectifs visés
-- Démarche pédagogique retenue.
 
-## Organisation
+#### Compétences visées
 
-organisation proposée
+<!-- À l'issue de la formation, les étudiants seront capables de: -->
+À partir d'un système mécanique initiale et d'un cahier des charges,
+
+- Identifier et proposer des solutions technologiques pour la conception d'une liaison encastrement
+- Réaliser une conception détaillée de la solution retenue (maquette numérique, cotation, dimensionnement, etc.)
+- Choisir et mettre en œuvre un procédé de fabrication adapté (fraisage, tournage, découpe laser)
+
+::::{.columns}
+
+:::{.column}
+#### Contenus mobilisés
+
+- Conception mécanique 1 (FIMI, S1)
+  - [lecture dossier technique, identification des surfaces fonctionnelles, dessin et CAO]{.muted}
+- Conception mécanique 2 (FIMI, S2)
+  - [graphe de liaison, cotation, technologie et conception d'une liaison encastrement, CAO, mise en plan.]{.muted}
+:::
+
+:::{.column}
+#### Connaissances visées (TODO ???)
+
+- Fonction d'une liaison encastrement
+- Familles de solutions technologiques <br> en fonction des contraintes et des surfaces fonctionnelles
+- Critères de choix
+
+#### {{< fa timeline >}} Organisation
+
+- Démarche pédagogique retenue (inductive, déductive, par technologie)
+:::
+
+
+::::
+
+## {{< fa timeline >}} Organisation 
+
+1. Introduction
+    - Introduction au projet
+        - Intérêt d'un encastrement démontable
+        - Présentation du support d'étude (initial : collé)
+        - Présentation du (nouveau) cahier des charges
+    - Rappel ???
+2. Projet
+    - Lecture du dossier : familiarisation avec la solution technologique existante, analyses de nouvelles contraintes fonctionnelles
+    - Identification des surfaces fonctionnelles
+    - Choix d'une solution technologiques
+        - [Classique : MIP contour écran "conique" + MAP colle + étanchéité](https://www.youtube.com/watch?v=LMeI5F1hb_A)
+        - [FairPhone : MIP contour écran "conique" + MAP vis + Pas de joint ?](https://www.youtube.com/watch?v=Vk3_dUIwk7k)
+        - [Projet ara de Google](https://www.01net.com/actualites/projet-ara-le-projet-fou-de-smartphone-modulaire-de-google-revient-hanter-le-web.html)
+        - Écrans tactiles en général : https://www.phoenix-mecano.ch/fr/solutions/technique-de-boitiers/hmi-solutions/integration-ecran-tactile/
+    - Dessin de la solution -> cotation
+    - CAO : opérations booléennes + assemblage + tolérancement + mise en plan
+    - Réalisation sur les machines : découpage ??, perçage + taraudage 
+    - Montage + Notice de montage ???
+
+
+
+## Séance introductive (≈ 1h)
+
+#### Objectifs
+
+- Connaître les fonctions d’une liaison encastrement.
+- Connaître les solutions technologiques et les choisir en fonction des contraintes fonctionnelles.
+
+#### Déroulement
+
+::::{.columns}
+:::{.column}
+1. **Introduction (5 min)** :
+    - Objectif : Supprimer les mobilités d'un ensemble cinématique par rapport à un autre.
+    - Pourquoi :
+        - [Maintenance, réparation, recyclage, etc.]{.muted}
+<!--    - Fil rouge : "Comment rendre un smartphone plus réparable ?" (parler de la batterie) -->
+2. **Fonctions et contraintes (20 min)** :
+    - Fonction de la liaison encastrement démontable
+        - [MIP/MAP, transmission de puissance, étanchéité, fiabilité.]{.muted}
+    - Torseurs statiques et cinématiques.
+:::
+:::{.column}
+3. **Solutions technologiques (25 min)** :
+    - Méthodologie de conception
+        - Fiche synthétique avec critères de choix, avantages/inconvénients, exemples.
+    - Étude de cas : TODO analyse d’un smartphone existant (vidéo/images).
+4. **Conclusion (5 min)** :
+    - Synthèse
+    - Présentation du projet
+:::
+::::
+
+
+:::{.footer}
+Ressources réparabilité : [EU Directive on repair of goods](https://commission.europa.eu/law/law-topic/consumer-protection-law/directive-repair-goods_en), [Right to Repair](https://repair.eu/).
+:::
+
+
+## Projet (7h, binômes)
+
+**Objectifs**
+
+- Appliquer la démarche de conception à un cas concret.
+- Travailler en équipe et justifier ses choix.
+
+**Données** <br>
+Cahier des charges, plan (écran, boitier et "autres pièces pour l'encombrement"), sujet guidé avec les grandes étapes.
+
+[https://www.printables.com/model/1358929-fairphone-6-case-base](https://www.printables.com/model/1358929-fairphone-6-case-base)
+[https://forum.fairphone.com/t/design-files-for-fairphone-2-cover-released/35713](https://forum.fairphone.com/t/design-files-for-fairphone-2-cover-released/35713)
+
+**Déroulement** :
+
+1. **Analyse du problème (1h)** :
+    - Lecture du cahier des charges
+    - Lecture des plans initiaux : Identification des surfaces fonctionnelles/intouchables.
+        - Bilan à la fin de cette étape
+2. **Choix de la MIP/MAP (1.5h)** :
+    - Graphe de liaison + justification.
+3. **Solutions techniques (2h)** :
+    - Brainstorming + choix de la solution.
+    - Croquis à la main des solutions envisagées.
+4. **Mise en plan (1.5h)** :
+    - Croquis coté final ou CAO (si possible, opérations booléennes).
+5. **Notice de montage/démontage (1h)** :
+    - Rédaction selon un format standardisé ?
+6. **Synthèse (1h)** :
+    - Présentation rapide des solutions par chaque binôme + feedbacks.
+    - Auto-évaluation guidée entre étudiants ??? + Évaluation par le prof ?
 
 ## Supports d'études
 
 
+Illustration de solution techniques
 
 
 
@@ -359,7 +524,7 @@ V. Lazarus <br>
 
 <br>
 
-[[{{< fa brands github >}} **floiseau/gcrack**]{.example}](https://github.com/floiseau/gcrack) [(LEFM$^*$)]{.muted}
+[[{{< fa brands github >}} **floiseau/gcrack**]{.example}](https://github.com/floiseau/gcrack) [(LEFM^[LEFM = Linear Elastic Fracture Mechanics])]{.muted}
 
 [[{{< fa brands github >}} **floiseau/fragma**]{.example}](https://github.com/floiseau/fragma) [(phase-field)]{.muted}
 
@@ -388,11 +553,8 @@ V. Lazarus <br>
 :::
 ::::
 
-:::{.footer}
-$^*$ LEFM = Linear Elastic Fracture Mechanics
-:::
 
-## Postdoc  at IMSIA - Numerical aspects
+## Postdoc at IMSIA - Numerical aspects
 
 [{{< fa bullseye >}} Develop robust numerical tools for crack propagation in anisotropic materials]{.alert .large}
 
@@ -642,48 +804,203 @@ Autres
 - Intérêt pour la science ouverte
 -->
 
-
-## Projet d'intégration en recherche
-
+## Intégration en recherche
 [*Équipe Multimap du LaMCoS*]{.muted}
-<br>
 
-#### [Objectif]{.example}
-
-:::{.example}
-Objectif dans le **dossier**
-:::
+#### [{{< fa bullseye >}} **Objectif global : Modéliser et simuler des solides en contact sous sollicitations extrêmes**]{.large .alert}
 
 :::{.absolute top="0%" right="0%"}
 ![](figures/logo_lamcos.png){width=280}
 :::
 
-**TODO** Schéma récapitulatif des thématiques de recherche envisagés (freeplane ou inkscape)
+#### {{< fa users >}} Intégration aux axes thématiques
 
-## Bases théoriques et numériques
+- Comportement multiphysique des matériaux sous sollicitations extrêmes
+  - Comportement sous sollicitations de contact
+  - [Aspects numériques pour la dynamique]{.muted}
+- [Procédés innovants de fabrication et de traitement de surface (métaux et polymères)]{.muted}
 
-S'appuyer sur la 3rd body method pour avoir un cadre permettant de facilement intégrer des comportement complexes pour les solides en contact.
+::::{.columns}
+:::{.column width=70%}
 
-## Modélisation
+#### Contributions visées
 
-Comportement du troisième corps
+**Modélisation du comportement**
 
-- Contact sans frottement
-- Frottement (comportement anisotrope)
-- Vers l'usure ??
+:::{.muted style="margin-left: 2em;"}
+- Endommagement/Rutpure, Plasticité, Thermo-mécanique
+- Anisotropie, Hétérogénéités
+- Méthodes de modélisation [(approches *data-driven*, régressions sparses)]{.verysmaller}
+:::
 
-Comportement des matériaux en contacts
+**Simulation numérique**
 
-- Ce qu'on veut (plasticité, comportements multi-physiques, etc.)
-- Mon expertise : fracture et endommagement
+:::{.muted style="margin-left: 2em;"}
+- Intégration de loi de comportement
+:::
 
-## Vers des applications industrielles
+:::
+:::{.column width=30%}
 
-Le but final sera d'aller vers des applications industrielles ....
+![Palier du moteur CFM56.](figures/research_project_cfm4_bearing.png){fig-align=center width=75%}
 
-Possiblité de collaborations avec des industriels + Intervention dans le projet ANR
+:::
+::::
 
-*Cette slide correspond peut-être plutôt au besoin.*
+
+## Projet spécifique : Cadre de base
+
+#### [{{< fa bullseye >}} **Objectif du projet : Développer un cadre numérique combinant contact et modèles de comportement avancés**]{.alert}
+
+#### {{< fa compass >}} Approche envisagée : Modélisation du contact via la méthode TMC [@wriggers_finite_2013]
+
+::::{.columns}
+
+:::{.column width=65%}
+
+{{< fa gears >}} **Principe**
+
+3ème medium raidissant en compression entre les solides en contact
+
+{{< fa regular circle-check >}} Cadre variationnel, Implémentation simple
+&emsp; {{< fa regular circle-xmark >}} Contact approché
+
+{{< fa file-pen >}} **En pratique**
+
+Minimisation de l'énergie potentielle **(+ plot of the law!)**
+$$
+\mathcal{P}(\boldsymbol{u}, ...) = \mathcal{P}_1(\boldsymbol{u}, ...) + \mathcal{P}_2(\boldsymbol{u}, ...) + \color{red}{\int_{\Omega_{\mathrm{TM}}} W_{\mathrm{TM}}(\boldsymbol{u}) \mathrm{d}\Omega},
+$$
+avec par exemple,
+$$
+W_{\mathrm{TM}}(\boldsymbol{u}) = \frac{\kappa}{2} \ln^2(J) + \frac{\mu}{2} (J^{-2/3} I_1 - 3),
+$$
+[où les invariants sont $J = \mathrm{det} (\mathbf{F})$ et $I_1 = \mathrm{tr} (C)$.]{.muted}
+
+
+:::
+
+:::{.column width=30%}
+![Illustration de la méthode *Third Medium Contact* <br> [@wriggers_finite_2013].](figures/reseach_project_illustration_third_medium_contact.svg){width=60%}
+
+![Loi de comportement pour le 3ème media](figures/reseach_project_third_medium_stress_strain.svg){width=100%}
+:::
+::::
+
+
+## Projet spécifique : Axes de recherche
+
+<br>
+
+::::{.columns}
+
+:::{.column}
+
+#### 1. Comportement du 3ème media
+
+**a. Frottement** <br>
+Couplage déformation volumique--cisaillement
+
+$$
+W_{\mathrm{TM}}(\boldsymbol{u}) = \frac{\kappa}{2} \ln^2(J) + \frac{\color{red}{\mu(I_1, I_2, J)}}{2} (J^{-2/3} I_1 - 3),
+$$
+
+<br>
+
+**b. Usure** <br>
+Remplacer le 3ème medium par une phase diffuse $\alpha$
+
+$$
+\mathcal{P}(\boldsymbol{u}, \alpha) = \color{red}{(1-\alpha)^2} \mathcal{P}_{1+2}(\boldsymbol{u}) + \color{red}{\alpha^2} \mathcal{P}_{\mathrm{TM}} + \color{red}{\mathcal{D}(\alpha)},
+$$
+où $\alpha=0 \rightarrow$ sain, $\alpha=1 \rightarrow$ usure, $\dot{\alpha} \geq 0$.
+
+[{{< fa warning >}} Dégradation de la modélisation du contact]{.muted}
+
+:::
+
+:::{.column}
+
+#### 2. Comportements des solides en contact
+
+**a. Méthode variationnelle incrémentale** 
+
+Thermo-mécanique des MSG$^1$ [@yang_variational_2006] <br>
+[$\rightarrow$ Plasticité, endommagement, etc.]{.muted}
+
+**b. Développement de loi de comportement**
+
+<br>
+
+#### 3. Exemples d'application (aéronautique)
+
+::::{.columns}
+:::{.column width=49%}
+![Palier du moteur CFM56.](figures/research_project_cfm4_bearing.png){fig-align=center height=5cm}
+:::
+
+:::{.column width=49%}
+![Aube de turbine.](figures/research_project_aube_turbine.jpg){fig-align=center height=5cm}
+:::
+::::
+
+:::
+
+::::
+
+:::{.footer}
+1. MSG = Matériaux Standards Généralisés
+:::
+
+
+## Projet spécifique : En pratique {.scrollable}
+
+
+::::{.columns}
+:::{.column width=65%}
+
+#### {{< fa laptop-code >}} Implémentation numérique
+
+**FEniCSx** avec solveurs non-linéaire (PETSc/TAO) <br>
+[&emsp; $\rightarrow$ Si instabilités numériques : régularisation ou gradient de Sobolev.]{.muted}
+:::
+
+:::{.column width=35%}
+![](figures/FEniCSx.svg){height=2.5cm}
+&emsp;
+![](figures/python.svg){height=2.5cm}
+:::
+::::
+
+::::{.columns}
+:::{.column}
+
+#### {{< fa timeline >}} Démarche
+
+![](figures/research_projet_organisation.svg){fig-align=center width=83%}
+
+:::
+
+:::{.column}
+
+#### Moyens (TODO ???)
+
+- Ressources et collab ????
+
+#### Limites
+
+Glissement/roulement $\implies$ Distorsion du maillage <br>
+[&emsp; $\rightarrow$ $r$-adaptation du maillage ?]{.muted}
+
+#### Intérêt
+
+- Comportement : [Cadre numérique unifié]{.muted}
+- Contact : [Multi-corps, frottement, usure]{.muted}
+
+:::
+
+::::
+
 
 ## Conclusion
 

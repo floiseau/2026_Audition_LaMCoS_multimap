@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="190.46013mm"
+   height="140.07176mm"
+   viewBox="0 0 190.46013 140.07176"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="research_projet_organisation.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.82004199"
+     inkscape:cx="417.05182"
+     inkscape:cy="340.83621"
+     inkscape:window-width="1916"
+     inkscape:window-height="1021"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g14" />
+  <defs
+     id="defs1">
+    <rect
+       x="271.93729"
+       y="478.02429"
+       width="91.458733"
+       height="51.216888"
+       id="rect8" />
+    <marker
+       style="overflow:visible"
+       id="ArrowWide"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(7.7573363,-14.349239)">
+    <path
+       style="fill:none;stroke:#190f3c;stroke-width:1;stroke-dasharray:none;marker-end:url(#ArrowWide)"
+       d="M 15.322069,14.349239 V 153.4639"
+       id="path1" />
+    <g
+       id="g12"
+       transform="translate(0,-10.583334)">
+      <circle
+         style="fill:#190f3c;stroke:none;stroke-width:1;stroke-dasharray:none"
+         id="path3"
+         cx="15.322069"
+         cy="33.551281"
+         r="2" />
+      <text
+         xml:space="preserve"
+         style="font-size:8.46667px;line-height:1;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;fill:#190f3c;stroke:none;stroke-width:1;stroke-dasharray:none"
+         x="26.338112"
+         y="36.834953"
+         id="text2"><tspan
+           sodipodi:role="line"
+           id="tspan2"
+           style="font-size:8.46667px;fill:#190f3c;stroke:none;stroke-width:1"
+           x="26.338112"
+           y="36.834953">Formalisation et implémentation</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:8.46667px;fill:#190f3c;stroke:none;stroke-width:1"
+           x="26.338112"
+           y="45.301624"
+           id="tspan3">du cadre de base</tspan></text>
+      <circle
+         style="fill:#190f3c;stroke:none;stroke-width:1;stroke-dasharray:none"
+         id="path3-5"
+         cx="15.322069"
+         cy="56.619648"
+         r="2" />
+      <text
+         xml:space="preserve"
+         style="font-size:8.46667px;line-height:1;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;fill:#190f3c;stroke:none;stroke-width:1;stroke-dasharray:none"
+         x="26.677109"
+         y="59.53125"
+         id="text2-3"><tspan
+           sodipodi:role="line"
+           style="font-size:8.46667px;fill:#190f3c;stroke:none;stroke-width:1"
+           x="26.677109"
+           y="59.53125"
+           id="tspan3-5">Stage M2</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:8.46667px;fill:#190f3c;stroke:none;stroke-width:1"
+           x="26.677109"
+           y="67.997917"
+           id="tspan6">Analyse et implémentation frottement</tspan></text>
+      <circle
+         style="fill:#190f3c;stroke:none;stroke-width:1;stroke-dasharray:none"
+         id="path3-5-8-5"
+         cx="15.322069"
+         cy="79.688011"
+         r="2" />
+      <text
+         xml:space="preserve"
+         style="font-size:8.46667px;line-height:1;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;fill:#190f3c;stroke:none;stroke-width:1;stroke-dasharray:none"
+         x="26.052858"
+         y="82.71537"
+         id="text2-3-2-6"><tspan
+           sodipodi:role="line"
+           style="font-size:8.46667px;fill:#190f3c;stroke:none;stroke-width:1"
+           x="26.052858"
+           y="82.71537"
+           id="tspan3-5-3-8">Projet pour financement</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:8.46667px;fill:#190f3c;stroke:none;stroke-width:1"
+           x="26.052858"
+           y="91.182037"
+           id="tspan5">(thèse, ANR JCJC)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:8.46667px;line-height:1;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;fill:#3746ff;stroke:none;stroke-width:1;stroke-dasharray:none"
+         x="-3.1932669"
+         y="36.591923"
+         id="text4"><tspan
+           sodipodi:role="line"
+           id="tspan4"
+           style="fill:#3746ff;stroke:none;stroke-width:1"
+           x="-3.1932669"
+           y="36.591923">1A</tspan></text>
+    </g>
+    <g
+       id="g13"
+       transform="translate(0,-1.1668416)">
+      <circle
+         style="fill:#190f3c;stroke:none;stroke-width:1;stroke-dasharray:none"
+         id="path3-5-8"
+         cx="15.322069"
+         cy="102.75638"
+         r="2" />
+      <text
+         xml:space="preserve"
+         style="font-size:8.46667px;line-height:1;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;fill:#190f3c;stroke:none;stroke-width:1;stroke-dasharray:none"
+         x="26.652304"
+         y="106.04005"
+         id="text2-3-2"><tspan
+           sodipodi:role="line"
+           style="font-size:8.46667px;fill:#190f3c;stroke:none;stroke-width:1"
+           x="26.652304"
+           y="106.04005"
+           id="tspan7">Thèse</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:8.46667px;fill:#190f3c;stroke:none;stroke-width:1"
+           x="26.652304"
+           y="114.50671"
+           id="tspan10">Cadre multi-physique et/ou usure</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:8.46667px;line-height:1;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;fill:#3746ff;stroke:none;stroke-width:1;stroke-dasharray:none"
+         x="-3.1932669"
+         y="105.8735"
+         id="text4-3"><tspan
+           sodipodi:role="line"
+           id="tspan4-8"
+           style="fill:#3746ff;stroke:none;stroke-width:1"
+           x="-3.1932669"
+           y="105.8735">2A</tspan></text>
+    </g>
+    <g
+       id="g14"
+       transform="translate(0,8.4666668)">
+      <circle
+         style="fill:#190f3c;stroke:none;stroke-width:1;stroke-dasharray:none"
+         id="path3-5-8-9"
+         cx="15.322069"
+         cy="125.82475"
+         r="2" />
+      <text
+         xml:space="preserve"
+         style="font-size:8.46667px;line-height:1;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;fill:#190f3c;stroke:none;stroke-width:1;stroke-dasharray:none"
+         x="26.511744"
+         y="128.85211"
+         id="text9"><tspan
+           sodipodi:role="line"
+           id="tspan9"
+           style="stroke-width:1"
+           x="26.511744"
+           y="128.85211">Vers des applications industrielles</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:8.46667px;line-height:1;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;fill:#3746ff;stroke:none;stroke-width:1;stroke-dasharray:none"
+         x="-8.0549927"
+         y="128.8654"
+         id="text4-3-8"><tspan
+           sodipodi:role="line"
+           id="tspan4-8-7"
+           style="fill:#3746ff;stroke:none;stroke-width:1"
+           x="-8.0549927"
+           y="128.8654">3A+</tspan></text>
+    </g>
+  </g>
+</svg>
